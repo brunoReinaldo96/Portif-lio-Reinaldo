@@ -2,8 +2,8 @@
 const menuHamburguer = document.querySelector(".menu-hamburguer")
 const nav = document.querySelector(".navbar")
 const links = document.querySelectorAll(".navbar-links li a");
-
 let swiper = createSwiper(".mySwiper", ".swiper-pagination", ".swiper-button-next", ".swiper-button-prev");
+
 function createSwiper(container, pagination, nextButton, prevButton) {
   return new Swiper(container, {
     slidesPerView: handleWidth(),
